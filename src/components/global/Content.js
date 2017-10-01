@@ -8,15 +8,15 @@ import './css/Content.css';
 class Content extends Component
 {
   static propTypes = {
-    children: PropTypes.object.isRequired
+	body: PropTypes.object.isRequired
   };
 
 		render()
 		{
-        const { body } = this.props;
+		const { body } = this.props;
 				return (
 						<div className="Content">
-              {body}
+				   {body}
 						</div>
 				);
 		}

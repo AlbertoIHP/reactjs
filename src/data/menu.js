@@ -9,8 +9,12 @@ export default
 		url: '/about'
 	},
   {
-    title: 'Contact',
-    url: '/contact'
+	title: 'Contact',
+	url: '/contact'
+  },
+  {
+  title: 'Library',
+  url: '/library'
   }
 
 ];
